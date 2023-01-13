@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Open+Sans&family=Poppins&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* banner style */
+header {
+    background-color: #fff8f3;
+    padding-top: 50px;
+}
+.nav-bar {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo > span {
+    color: #fd6e0a;
+}
+.navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.navigation > li {
+    padding-left: 30px;
+}
+.navigation > li:hover {
+    cursor: pointer;
+    color: #fd6e0a;
+}
+.btn-hire-me {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    background-color: #fd6e0a;
+    color: #fff8f3;
+    border: none;
+    border-radius: 5px;
+}
+.btn-hire-me:hover {
+    cursor: pointer;
+    background-color: #e25f01;
+}
