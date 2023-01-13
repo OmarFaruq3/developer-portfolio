@@ -138,3 +138,12 @@ main {
     background-color: #ffffff;
     text-align: left;
 }
+
+/* style for resume */
+.resume {
+    margin-top: 130px;
+}
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
