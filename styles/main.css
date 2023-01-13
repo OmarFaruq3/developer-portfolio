@@ -5,13 +5,44 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Common style */
+p {
+    color: #757575;
+}
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: #f87212;
+    color: #fff8f3;
+}
+.btn-primary:hover {
+    background-color: #e25f01;
+}
+.btn-bordered {
+    border: 1px solid #fd8026;
+    background: none;
+}
+.btn-bordered:hover {
+    background-color: #f87212;
+    color: #fff8f3;
+}
+
 /* banner style */
 header {
     background-color: #fff8f3;
     padding-top: 50px;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left 100px center;
+    background-size: auto, 100px;
 }
 .nav-bar {
-    width: 1140px;
+    width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -36,16 +67,27 @@ header {
     cursor: pointer;
     color: #fd6e0a;
 }
-.btn-hire-me {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 18px 36px;
-    background-color: #fd6e0a;
-    color: #fff8f3;
-    border: none;
-    border-radius: 5px;
+.banner {
+    margin: 0 300px;
+    display: flex;
+    justify-content: space-between;
 }
-.btn-hire-me:hover {
-    cursor: pointer;
-    background-color: #e25f01;
+.banner-info {
+    margin-top: 185px;
+}
+.banner-info > span {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-info > .name {
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-info > p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner > img {
+    position: relative;
+    right: -200px;
 }
